@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="/dist/output.css" rel="stylesheet">
+  <title>Tailwind css Project</title>
+  <!-- relway font -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;500;600;700&family=Roboto:ital,wght@0,400;0,500;0,700;0,900;1,300&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="/dist/all.min.css">
+</head>
+
+<body class="bg-body ">
+
+
+  <header class="pt-[60px] fixed top-0 left-0 w-full z-50 transition-all duration-300">
+    <div class="container  flex justify-between items-center  sm:gap-0">
+      <a href="#">
+        <img src="/img/logo.svg" alt="logo" class="w-[85px] md:w-36 sm:w-[100px] ">
+      </a> <!-- logo  -->
+      <nav>
+        <ul class="flex gap-[10px] sm:gap-[45px] text-[13.5px] sm:text-[16px]  items-center ">
+          <li><a href="#feature" class="transition-opacity duration-150">Features</a></li>
+          <li><a href="#team" class="transition-opacity duration-150">Team</a></li>
+          <li><a href="#sign in" class="transition-opacity duration-150">Sign in</a></li>
+        </ul>
+      </nav> <!-- nav -->
+    </div> <!-- container -->
+  </header> <!-- end header -->
+
+  <section class="bg-[#1C2230] relative ">
+    <div class="container ">
+
+      <div class="elem_center flex-col pt-[200px] pb-[150px]">
+        <div class="w-[690px] max-w-full ">
+          <img src="/img/illustration-intro.png" alt="landing_img" class="w-full h-fit mb-3">
+        </div> <!--  -->
+        <div class="py-3 text-center z-10">
+          <h3 class="font-semibold md:text-[40px] sm:text-[35px]">All your files in one secure location,<br>accessible
+            anywhere.</h3>
+          <p class=" my-7 text-sm sm:text-xl max-w-full sm:w-[600px]  ">Lorem ipsum dolor sit amet consectetur
+            adipisicing elit. Porro ipsum sit at culpa sequi rerum veritatis,neque aliquid cupiditate architecto
+            mollitia impedit</p>
+        </div>
+        <a href="#"
+          class="btn_style sm:w-[277px] sm:h-[57px] z-10 elem_center w-[150px] h-[35px] p-3 text-xs sm:text-lg sm:font-medium ">Get
+          Started</a>
+      </div>
+
+    </div> <!-- container -->
+
+    <div class="w-full max-w-full h-[300px]  absolute left-0 bottom-0">
+      <img src="/img/bg-curvy-desktop.svg" alt="img" class=" w-full h-full">
+    </div><!-- curv -->
+
+  </section> <!-- home page => landing part -->
+
+  <section class="pb-[150px]">
+    <div class="container">
+
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-[90px] max-w-full w-[875px] mx-auto py-6 px-3">
+
+        <div class="elem_center flex-col text-center py-5">
+          <div>
+            <img src="/img/icon-access-anywhere.svg" alt="icon">
+          </div>
+          <div class="pt-5">
+            <h4 class="sm:text-xl mb-3 font-semibold">Lorem ipsum dolor sit amet.</h4>
+            <p class="  text-sm max-w-full sm:w-[400px] px-[15px]">Lorem ipsum dolor sit amet consectetur, adipisicing
+              elit. Reprehenderit corporis aliquid, facere nemo atque iusto dolor magni maiores.</p>
+          </div>
+        </div><!-- 1 -->
+        <div class="elem_center flex-col text-center py-5">
+          <div>
+            <img src="/img/icon-security.svg" alt="icon">
+          </div>
+          <div class="pt-5">
+            <h4 class="sm:text-xl mb-3  font-semibold">Lorem ipsum dolor sit amet.</h4>
+            <p class="  text-sm max-w-full sm:w-[400px] px-[15px]">Lorem ipsum dolor sit amet consectetur, adipisicing
+              elit. Reprehenderit corporis aliquid, facere nemo atque iusto dolor magni maiores.</p>
+          </div>
+        </div><!--2 -->
+        <div class="elem_center flex-col text-center py-5">
+          <div>
+            <img src="/img/icon-collaboration.svg" alt="icon">
+          </div>
+          <div class="pt-5">
+            <h4 class="sm:text-xl mb-3 font-semibold">Lorem ipsum dolor sit amet.</h4>
+            <p class="  text-sm max-w-full sm:w-[400px] px-[15px]">Lorem ipsum dolor sit amet consectetur, adipisicing
+              elit. Reprehenderit corporis aliquid, facere nemo atque iusto dolor magni maiores.</p>
+          </div>
+        </div><!--3 -->
+        <div class="elem_center flex-col text-center py-5">
+          <div>
+            <img src="/img/icon-any-file.svg" alt="icon">
+          </div>
+          <div class="pt-5">
+            <h4 class="sm:text-xl mb-3 font-semibold">Lorem ipsum dolor sit amet.</h4>
+            <p class="  text-sm max-w-full sm:w-[400px] px-[15px]">Lorem ipsum dolor sit amet consectetur, adipisicing
+              elit. Reprehenderit corporis aliquid, facere nemo atque iusto dolor magni maiores.</p>
+          </div>
+        </div><!--4 -->
+
+      </div>
+    </div><!-- container -->
+  </section> <!-- home page => Feature part -->
+
+  <section class="pb-[150px]">
+    <div class="container">
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-[30px] place-items-center">
+        <div class="">
+          <img src="/img/illustration-stay-productive.png" alt="img">
+        </div>
+        <div>
+          <h4 class="font-semibold text-2xl sm:leading-9 md:text-[33px] sm:text-[26px] max-w-full sm:w-[340px]">Stay
+            productive,
+            wherever you are</h4>
+          <div class="text-sm sm:text-[16.5px] my-4  ">
+            <p class="mb-[15px]">Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium accusantium
+              cupiditate aperiam in veniam! Assumenda, possimus vero.</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Inventore reiciendis voluptas illo sunt iusto
+              veniam qui.</p>
+          </div>
+          <a href="#"
+            class="text-primaryColor tracking-[0.8px] border-primaryColor border-solid hover:border-white pb-1 flex items-center gap-3 hover:text-white transition-colors duration-200 border-b-2 w-fit text-sm sm:text-[16.5px]">See
+            how fylo work
+            <img src="/img/icon-arrow.svg" alt="arrow" class="w-[20px] h-[20px] object-contain animate-moveToR"></a>
+          </a>
+        </div>
+
+      </div>
+    </div><!-- container -->
+  </section> <!-- home page => creat productive -->
+
+  <section class="pb-[350px]">
+    <div class="container relative">
+      <div class="absolute left-[20px] top-[-35px] z-[-1]"><img src="/img/bg-quotes.png" alt="quote"></div>
+      <div class=" grid grid-cols-1  md:grid-cols-3 gap-5 ">
+        <div class="  bg-[#1C2230] py-5 px-8 rounded-[7px] shadow-[8px_4px_2px_2px_#1c202c]">
+          <p class="mb-7">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consequuntur eos perferendis
+            doloremque libero facilis assumenda, suscipit nemo quo obcaecati id modi, voluptatibus culpa.</p>
+          <div class="flex items-center gap-3 ">
+            <img src="/img/profile-1.jpg" alt="Satish" class="w-[50px] h-[50px] rounded-full object-contain">
+            <div>
+              <strong>Satish Georg</strong>
+              <p>Lorem, ipsum dolor.</p>
+            </div>
+          </div>
+        </div> <!-- 1 -->
+        <div class="  bg-[#1C2230] py-5 px-8 rounded-[7px] shadow-[8px_4px_2px_2px_#1c202c]">
+          <p class="mb-7">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consequuntur eos perferendis
+            doloremque libero facilis assumenda, suscipit nemo quo obcaecati id modi, voluptatibus culpa.</p>
+          <div class="flex items-center gap-3 ">
+            <img src="/img/profile-2.jpg" alt="Bruce" class="w-[50px] h-[50px] rounded-full object-contain">
+            <div>
+              <strong>Bruce Mckenzle</strong>
+              <p>Lorem, ipsum dolor.</p>
+            </div>
+          </div>
+        </div> <!-- 2 -->
+        <div class="  bg-[#1C2230] py-5 px-8 rounded-[7px] shadow-[8px_4px_2px_2px_#1c202c]">
+          <p class="mb-7">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consequuntur eos perferendis
+            doloremque libero facilis assumenda, suscipit nemo quo obcaecati id modi, voluptatibus culpa.</p>
+          <div class="flex items-center gap-3 ">
+            <img src="/img/profile-3.jpg" alt="Iva" class="w-[50px] h-[50px] rounded-full object-contain">
+            <div>
+              <strong>Iva Boyed</strong>
+              <p>Lorem, ipsum dolor.</p>
+            </div>
+          </div>
+        </div> <!-- 3 -->
+
+
+      </div>
+    </div>
+  </section> <!-- home page => Testimonial -->
+
+  <section>
+    <div class="container relative">
+      <div
+        class="bg-[#1c2230] rounded-lg p-[30px] absolute top-[-150px] left-[50%] translate-x-[-50%] elem_center flex-col w-[865px] min-h-[275px] max-w-full text-center shadow-[7px_5px_7px_3px_#08121E]">
+        <h4 class="font-semibold sm:text-[33px] mb-4">Get early access today</h4>
+        <p class="w-[620px] max-w-full mx-auto mb-9">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ut, et?
+          Dolore libero minus inventore ut tempore,
+          aspernatur et.</p>
+        <form action="" class="w-full flex justify-between flex-wrap items-center md:px-[60px] gap-7">
+          <input type="email" name=""
+            class="rounded-3xl w-full md:flex-1 h-[50px] p-5 border-none text-sm font-medium text-black outline-none"
+            placeholder="email@example.com" id="">
+          <button type="submit"
+            class=" font-medium w-full md:w-[200px] h-[50px] bg-gradient-to-r from-[#4EC6D4] to-[#36AED4] hover:from-[#8CDAE4] hover:to-[#8CDAE4] transition-all duration-200 rounded-3xl">Get
+            started for free</button>
+        </form>
+      </div>
+    </div>
+  </section> <!-- home page => get started -->
+
+
+  <footer>
+    <section class="pt-[300px] md:pt-[200px] pb-20 bg-[#0c1524]">
+      <div class="container">
+        <a href="#">
+          <img src="/img/logo.svg" alt="logo" class="w-[120px] h-[55px] object-contain">
+        </a>
+        <div class="flex flex-col sm:flex-row items-center justify-between sm:items-start pt-9 gap-7">
+          <div class="flex items-start gap-4 w-[340px] max-w-full">
+            <img src="/img/icon-location.svg" alt="icon-location" class="w-4 object-contain">
+            <p class="text-sm tracking-[0.8px]">Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae
+              debitis reiciendis, voluptas cum modi.</p>
+          </div> <!-- 1 -->
+          <div>
+            <div class="flex items-center gap-5 mb-5">
+              <img src="/img/icon-phone.svg" alt="icon-phone" class="w-4 object-contain">
+              <p class="text-sm tracking-[0.8px]">+1002-846-654</p>
+            </div> <!-- 2-1 -->
+            <div class="flex items-center gap-5 ">
+              <img src="/img/icon-email.svg" alt="icon-email" class="w-4 object-contain">
+              <p class="text-sm tracking-[0.8px]">example@fylo.com</p>
+            </div> <!-- 2-2 -->
+          </div> <!-- 2 -->
+          <div>
+            <ul class="text-sm items-center grid grid-cols-1 md:grid-cols-2 gap-[15px] px-3">
+              <li><a href="#" class="transition-opacity duration-150  hover:opacity-[1] hover:font-semibold">About
+                  Us</a></li>
+              <li><a href="#" class="transition-opacity duration-150 hover:opacity-[1] hover:font-semibold">Contact
+                  Us</a></li>
+              <li><a href="#" class="transition-opacity duration-150 hover:opacity-[1] hover:font-semibold">Jops</a>
+              </li>
+              <li><a href="# " class="transition-opacity duration-150 hover:opacity-[1] hover:font-semibold">Terms</a>
+              </li>
+              <li><a href="# " class="transition-opacity duration-150 hover:opacity-[1] hover:font-semibold">Press</a>
+              </li>
+              <li><a href="# " class="transition-opacity duration-150 hover:opacity-[1] hover:font-semibold">Privacy</a>
+              </li>
+              <li><a href="#" class="transition-opacity duration-150  hover:opacity-[1] hover:font-semibold">Blog</a>
+              </li>
+            </ul>
+          </div> <!-- 3 -->
+          <div>
+            <ul class="items-center flex gap-4 w-full justify-center md:w-auto text-sm md:text-lg">
+              <li>
+                <a href="#" class="transition-opacity duration-150  hover:text-primaryColor ">
+                  <div class="border rounded-full w-[25px] h-[25px] md:w-[37px] md:h-[37px] elem_center hover:border-primaryColor">
+                    <i class="fa-brands fa-facebook-f "></i>
+                  </div>
+                </a>
+              </li>
+              <li>
+                <a href="#" class="transition-opacity duration-150  hover:text-primaryColor ">
+                  <div class="border rounded-full w-[25px] h-[25px] md:w-[37px] md:h-[37px] elem_center hover:border-primaryColor">
+                    <i class="fa-brands fa-twitter "></i>
+                  </div>
+                </a>
+              </li>
+              <li>
+                <a href="#" class="transition-opacity duration-150  hover:text-primaryColor ">
+                  <div class="border rounded-full w-[25px] h-[25px] md:w-[37px] md:h-[37px] elem_center hover:border-primaryColor">
+                    <i class="fa-brands fa-instagram "></i>
+                  </div>
+                </a>
+              </li>
+
+            </ul>
+          </div> <!-- 4 -->
+
+        </div>
+      </div>
+
+    </section>
+  </footer>
+
+  <!-- end page -->
+
+
+  <script>
+    window.addEventListener("scroll", () => {
+      const header = document.querySelector('header');
+      if (window.scrollY > 100) {
+        header.style.background = "#0c1524";
+        header.style.padding = "20px 0px";
+
+      } else {
+        header.style.background = 'transparent';
+        header.style.padding = "60px 0px";
+      }
+
+    });
+  </script>
+
+
+
+
+
+
+
+
+
+  <!-- <script src="/dist/main.js"></script> -->
+
+</body>
+
+</html>
